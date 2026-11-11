@@ -1,0 +1,13 @@
+# El tutor revisa ANTES de integrar solo lo sensible. El resto se revisa después, en la
+# revisión semanal (ver docs/metodologia.md, 4.2 bis).
+# Esta petición de revisión solo es obligatoria si la protección de main está activa
+# (repositorio público o plan GitHub Pro). Si no, es una norma.
+
+/.github/ @profeFPInfor
+/.gitignore @profeFPInfor
+/Dockerfile @profeFPInfor
+/docker-compose*.yml @profeFPInfor
+/deploy/ @profeFPInfor
+
+# Añade aquí las rutas sensibles de TU proyecto (autenticación, permisos, datos...), por ejemplo:
+# /src/auth/ @profeFPInfor
