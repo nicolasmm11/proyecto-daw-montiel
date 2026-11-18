@@ -1,0 +1,133 @@
+{
+  "version": "0.2.0",
+  "semana": 1,
+  "titulo": "Ciclo 1 de H1 (16-19 nov): repositorio, idea y primeros apartados",
+  "niveles": {
+    "minimo": "Lo exigible el jueves: pasos 0, 1 y 2 hechos",
+    "completo": "Pasos 3 y 4 además (en este ciclo basta con tenerlos empezados)"
+  },
+  "ficheros": [
+    {
+      "ruta": "README.md",
+      "paso": "0",
+      "nivel": "minimo",
+      "min_lineas_no_vacias": 3,
+      "contiene": [
+        "docs/"
+      ]
+    },
+    {
+      "ruta": ".gitignore",
+      "paso": "0",
+      "nivel": "minimo",
+      "contiene": [
+        ".env"
+      ]
+    },
+    {
+      "ruta": "docs/00-documentoInicio.md",
+      "paso": "idea",
+      "nivel": "minimo",
+      "apartados": [
+        {
+          "titulo": "## 2.",
+          "rellenado": true
+        },
+        {
+          "titulo": "## 3.",
+          "rellenado": true
+        },
+        {
+          "titulo": "## 4.",
+          "rellenado": true
+        },
+        {
+          "titulo": "## 5.",
+          "rellenado": true
+        }
+      ]
+    },
+    {
+      "ruta": "docs/01b-sota.md",
+      "paso": "1",
+      "nivel": "minimo",
+      "apartados": [
+        {
+          "titulo": "## 1.",
+          "rellenado": true,
+          "sin_marcadores": [
+            "[RELLENAR"
+          ],
+          "tabla": {
+            "columnas": 4,
+            "filas_min": 3,
+            "filas_max": 5
+          }
+        },
+        {
+          "titulo": "## 2.",
+          "rellenado": true,
+          "sin_marcadores": [
+            "[RELLENAR"
+          ],
+          "tabla": {
+            "columnas": 6,
+            "filas_min": 5,
+            "filas_max": 8,
+            "columna_enlace_fecha": 4,
+            "columna_estado": 5,
+            "estados_validos": [
+              "leído",
+              "sin leer"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "ruta": "docs/01-analisis.md",
+      "paso": "2",
+      "nivel": "minimo",
+      "apartados": [
+        {
+          "titulo": "## 1.",
+          "rellenado": true,
+          "mermaid": true,
+          "tabla": {
+            "columnas": 7,
+            "filas_min": 5,
+            "columna_enlace_fecha": 5,
+            "columna_estado": 6,
+            "estados_validos": [
+              "leído",
+              "sin leer"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "ruta": "docs/01-analisis.md",
+      "paso": "3",
+      "nivel": "completo",
+      "apartados": [
+        {
+          "titulo": "## 2.",
+          "rellenado": true,
+          "enlaces_min": 1
+        }
+      ]
+    },
+    {
+      "ruta": "docs/01-analisis.md",
+      "paso": "4",
+      "nivel": "completo",
+      "apartados": [
+        {
+          "titulo": "## 3.",
+          "rellenado": true
+        }
+      ]
+    }
+  ]
+}

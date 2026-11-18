@@ -1,0 +1,35 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+
+  // Modelo predeterminado (decisión del 2026-11-16): gratuito de OpenCode, DeepSeek V4.1 Flash.
+  // Según la documentación de OpenCode V2 (2026-11-16) es «zero-retention» y no se usa para entrenar.
+  // Alternativa gratuita: opencode/big-pickle (ojo: durante su periodo gratuito los datos pueden usarse
+  // para mejorar el modelo). Aun así: nada de claves ni datos personales en el chat.
+  // Lista y condiciones actuales: `opencode models` y la página de modelos de la Consola de OpenCode.
+  "model": "opencode/deepseek-v4.1-flash-free",
+
+  // Modelos de RESPALDO (también gratuitos y «zero-retention»; los tres respondieron el 2026-11-16).
+  // OpenCode V2 no cambia de modelo solo al fallar: si se agota la cuota o el modelo no responde,
+  // se cambia a mano con `/models` (o `F2` para rotar entre los usados) o con `opencode run -m <modelo>`.
+  //   1. opencode/glm-5.3-flash-free
+  //   2. opencode/minimax-m3.1-flash-free
+  //   3. opencode/hy4-flash-free
+
+  // Al abrir OpenCode en esta carpeta empieza la guía, que no puede editar nada.
+  "default_agent": "guia",
+
+  // Política base de permisos (la última regla que coincide gana).
+  // Lo irreversible lo ejecuta siempre la persona, nunca el agente.
+  "permissions": [
+    { "action": "shell", "resource": "*", "effect": "ask" },
+    { "action": "shell", "resource": "git status *", "effect": "allow" },
+    { "action": "shell", "resource": "git diff *", "effect": "allow" },
+    { "action": "shell", "resource": "git log *", "effect": "allow" },
+    { "action": "shell", "resource": "git push *", "effect": "deny" },
+    { "action": "shell", "resource": "git reset *", "effect": "deny" },
+    { "action": "shell", "resource": "rm *", "effect": "deny" },
+    { "action": "read", "resource": "*.env", "effect": "deny" },
+    { "action": "read", "resource": "*.env.*", "effect": "deny" },
+    { "action": "read", "resource": "*.env.example", "effect": "allow" }
+  ]
+}

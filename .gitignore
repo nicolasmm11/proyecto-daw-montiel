@@ -1,0 +1,24 @@
+# Secretos y entorno (NUNCA se suben)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+
+# Dependencias y compilados
+node_modules/
+vendor/
+target/
+build/
+dist/
+*.class
+
+# IDE y sistema
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
