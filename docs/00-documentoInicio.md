@@ -9,14 +9,14 @@
 | | |
 |---|---|
 | **Nombre y apellidos** | Nicolás Montiel Melendi|
-| **Usuario de GitHub** | nicolasm11|
-| **Repositorio del proyecto** | *enlace* |
+| **Usuario de GitHub** | nicolasmm11 |
+| **Repositorio del proyecto** | [proyecto-daw-montiel](https://github.com/nicolasmm11/proyecto-daw-montiel) |
 | **Ciclo y curso** | DAW, 2.º · curso 2026-27 |
 | **Fecha** | 2026-11-06 |
 
 ## 2. Nombre del proyecto
 
-CardLab_TCG --> Una plataforma donde almacenar las cartas físicas de los usuarios y construir mazos.
+CardLab-TCG --> Una plataforma donde almacenar las cartas físicas de los usuarios y construir mazos.
 
 ## 3. Qué quiero hacer
 
