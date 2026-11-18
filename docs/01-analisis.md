@@ -2,7 +2,7 @@
 
 ## 1. Sector y empresas (CE 1a, 1b)
 
-CardLab pertenece al ámbito de los juegos de cartas coleccionables (TCG). Está pensado para quien guarda cartas físicas y quiere saber cuáles puede usar en un mazo. En este sector conviven empresas que editan juegos, fabricantes de accesorios y proveedores de aplicaciones para gestionar colecciones. El código CNAE de una posible empresa española dependería de su actividad principal y queda pendiente de concretar.
+CardLab pertenece al ámbito de los juegos de cartas coleccionables (TCG). Está pensado para quien guarda cartas físicas y quiere saber cuáles puede usar en un mazo. En este sector conviven empresas que editan juegos, fabricantes de accesorios y proveedores de aplicaciones para gestionar colecciones. En España, una tienda especializada cuya actividad principal sea la venta minorista de juegos y juguetes encaja en la clase 47.64 de la CNAE-2025 (47.65 en la CNAE-2009). Esta referencia sectorial corresponde al comercio minorista. Para clasificar una empresa que explotase CardLab habría que determinar primero su actividad principal. [CNAE-2025](https://www.boe.es/eli/es/rd/2025/01/14/10) y [CNAE-2009](https://www.boe.es/eli/es/rd/2007/04/13/475) · 2026-11-19 · sin leer.
 
 En ambos documentos, la fecha indica cuándo consultó la fuente la IA. El campo «Estado» recoge la lectura personal del alumno. [Declaración de uso de IA](declaracion-uso-ia.md).
 
@@ -62,7 +62,7 @@ La solución elegida es una **aplicación web a medida** con un catálogo compar
 | Aplicación móvil nativa | Depende de la distribución y del entorno de pruebas. | Alto. Añade el desarrollo y las pruebas en una plataforma móvil. | Encaja con el uso de la cámara, aunque el escaneo es opcional y la interfaz prevista es web. |
 | Integración de servicios existentes | Pendiente de las condiciones de acceso a los datos. | Incierto hasta conocer las interfaces disponibles. | Permitiría trabajar la integración en el servidor. El inventario y el constructor dependerían de servicios externos. |
 
-La web permite guardar un mazo incompleto y consultar las copias que faltan desde un navegador. La hoja de cálculo deja las fórmulas a cargo del usuario. La aplicación nativa exige invertir tiempo en una función opcional. En la integración externa aún habría que verificar el acceso al catálogo y los permisos de uso. Se propone Pokémon TCG como primer juego para acotar el catálogo. Esta elección queda pendiente de validación.
+La web permite guardar un mazo incompleto y consultar las copias que faltan desde un navegador. La hoja de cálculo deja las fórmulas a cargo del usuario. La aplicación nativa exige invertir tiempo en una función opcional. En la integración externa aún habría que verificar el acceso al catálogo y los permisos de uso. Se propone Pokémon TCG como primer juego para acotar el catálogo. Esta elección queda pendiente de validación. Las opciones de implementación se comparan en el [estado del arte](01b-sota.md).
 
 ## 4. Objetivos, requisitos y restricciones (CE 1f)
 
@@ -118,6 +118,8 @@ CardLab se plantea como un encargo académico simulado, con cuentas de prueba y 
 | Contratación y Seguridad Social | Si se contrata personal, habrá que tramitar las altas, cotizar, formalizar los contratos según su modalidad, aplicar el convenio correspondiente y registrar la jornada. | [Ley General de la Seguridad Social, arts. 18 y 139](https://www.boe.es/eli/es/rdlg/2015/10/30/8/con) y [Estatuto de los Trabajadores, arts. 8, 34.9 y 82](https://www.boe.es/eli/es/rdlg/2015/10/23/2/con) | sin leer |
 | Prevención de riesgos laborales | Con personal contratado, la empresa debe evaluar los riesgos y planificar medidas preventivas. En los puestos con uso habitual de pantallas, la evaluación debe considerar la vista, la postura y la carga mental. | [Ley 31/1995, arts. 14 a 16](https://www.boe.es/eli/es/l/1995/11/08/31/con) y [RD 488/1997, arts. 2 y 3 y anexo](https://www.boe.es/eli/es/rd/1997/04/14/488/con) | sin leer |
 
+Si en el futuro se abriera el registro a personas reales, habría que identificar los datos personales tratados, justificar para qué se necesitan, determinar la base jurídica e informar a los usuarios. En la demostración se utilizarán cuentas ficticias, conforme a REST-02. [RGPD, arts. 5, 6 y 13](https://www.boe.es/doue/2016/119/L00001-00088.pdf) · 2026-11-19 · sin leer.
+
 ## 6. Ayudas y subvenciones (CE 1h)
 
 **Cheques de Innovación y Desarrollo Empresarial 2026 de la Agencia SEKUENS.** La línea de digitalización sirve para estudiar cómo podría financiarse la implantación de una herramienta de gestión en una empresa asturiana que cumpliera las condiciones de la convocatoria.
@@ -135,17 +137,17 @@ La ayuda cubriría, en su caso, una contratación externa admisible. El trabajo 
 
 ## 7. Guion de trabajo (CE 1i)
 
-La hoja de H1 fija la entrega del anteproyecto y el documento de inicio sitúa la primera versión funcional antes del 31 de marzo. Los demás periodos son orientativos hasta cotejarlos con el calendario del centro.
+La hoja de H1 fija la entrega del anteproyecto y el documento de inicio sitúa la primera versión funcional antes del 31 de marzo. Para las demás fases se toman las fechas del ejemplo de la guía H1-D. Son provisionales hasta cotejarlas con el calendario del centro.
 
 | Fase | Periodo | Tarea principal | Responsable | Entregable o hito |
 |---|---|---|---|---|
 | 1. Análisis | Del 12 al 26 de noviembre de 2026 | Comparar soluciones, definir los requisitos y contrastar las fuentes. | Alumno. El tutor revisa el PR. | **H1 · 26 de noviembre de 2026.** |
-| 2. Diseño | Diciembre de 2026 (propuesta) | Definir cómo se identifican las cartas y cómo se relacionan las cuentas, los inventarios y los mazos. | Alumno | Modelo de datos y diseño de pantallas. |
-| 3. Planificación | Enero de 2027 (propuesta) | Estimar el trabajo, ordenar las tareas y prever qué hacer si el catálogo externo resulta inaccesible. | Alumno | **H2 · Fecha oficial pendiente.** |
-| 4. Implementación | Desde H2 hasta antes del 31 de marzo de 2027 | Desarrollar el catálogo, las cuentas y el constructor vinculado al inventario. | Alumno | Primera versión funcional. |
-| 5. Pruebas | Durante el desarrollo y en abril de 2027 (propuesta) | Comprobar los recuentos, el acceso por cuenta y la restauración de datos. | Alumno | Resultados de las pruebas y correcciones. |
-| 6. Despliegue | Mayo de 2027 (propuesta) | Instalar la aplicación y reproducir la demostración siguiendo la guía. | Alumno | **H3 · Fecha oficial pendiente.** |
-| 7. Seguimiento y cierre | Seguimiento semanal y cierre en junio de 2027 (propuesta) | Registrar avances y bloqueos, cerrar la memoria y preparar la defensa. | Alumno | Memoria y defensa. |
+| 2. Diseño | Del 26 de noviembre al 10 de diciembre de 2026 | Definir cómo se identifican las cartas y cómo se relacionan las cuentas, los inventarios y los mazos. | Alumno | Modelo de datos y diseño de pantallas. |
+| 3. Planificación | Del 10 de diciembre de 2026 al 21 de enero de 2027 | Estimar el trabajo, ordenar las tareas y prever qué hacer si el catálogo externo resulta inaccesible. | Alumno | **H2 · 21 de enero de 2027 (provisional).** |
+| 4. Implementación | Del 21 de enero al 31 de marzo de 2027 | Desarrollar el catálogo, las cuentas y el constructor vinculado al inventario. | Alumno | Primera versión funcional. |
+| 5. Pruebas | Del 1 al 23 de abril de 2027 | Comprobar los recuentos, el acceso por cuenta y la restauración de datos. | Alumno | Resultados de las pruebas y correcciones. |
+| 6. Despliegue | Del 26 de abril al 7 de mayo de 2027 | Instalar la aplicación y reproducir la demostración siguiendo la guía. | Alumno | **H3 · 7 de mayo de 2027 (provisional).** |
+| 7. Seguimiento y cierre | Seguimiento semanal hasta el cierre, el 18 de junio de 2027 | Registrar avances y bloqueos, cerrar la memoria y preparar la defensa. | Alumno | Memoria y defensa. |
 
 **Entrega de H1.** El tutor revisa el avance el 19 de noviembre. A partir de esa fecha, cada solicitud de integración (PR) lleva la etiqueta `necesita-tutor` y requiere aprobación. El 23 de noviembre es el último día recomendado para abrir el PR de entrega y el 25 es el último día para integrarlo. El alumno debe subir la etiqueta `h1` y comunicar el identificador de la revisión al tutor antes de las 23:59 del día 26.
 
