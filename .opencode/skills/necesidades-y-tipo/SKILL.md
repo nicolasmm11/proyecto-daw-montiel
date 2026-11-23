@@ -5,7 +5,7 @@ description: "Guía los pasos 3 y 4: lista priorizada de necesidades con criteri
 
 # necesidades-y-tipo
 
-**Versión:** 0.1.0 · **Estado:** no probado
+**Versión:** 0.1.1 · **Estado:** no probado
 
 ## Objetivo
 
@@ -25,7 +25,7 @@ Que la persona rellene los apartados **2 y 3** de `docs/01-analisis.md`. Parte d
 5. **Pensar 3 tipos de respuesta** (p. ej. aplicación web, herramienta de línea de comandos, extensión, adaptar algo existente).
 6. **Compararlos con los mismos criterios**: coste, tiempo, encaje con lo que sabe y con los módulos de 2.º.
 7. **Elegir uno** y justificar **por qué ese y no los otros dos**.
-8. (Si falta) escribir el **hueco** en `01b-sota.md` §5: qué no cubren las soluciones y qué aporta el proyecto, en 3-5 líneas, reconociendo dónde otras soluciones son mejores.
+8. El **hueco** de `01b-sota.md` §5 es el **paso 8** (semana 2): lo guía la skill `aporte-del-proyecto`. Aquí solo menciónalo.
 
 ## Reglas
 

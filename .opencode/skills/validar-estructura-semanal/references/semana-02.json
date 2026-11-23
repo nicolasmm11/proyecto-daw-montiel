@@ -1,0 +1,140 @@
+{
+  "version": "0.1.0",
+  "semana": 2,
+  "titulo": "Ciclo 2 de H1 (19-26 nov): requisitos, obligaciones, guion y hueco",
+  "niveles": {
+    "minimo": "Lo exigible para el Pull Request de entrega: pasos 5, 6, 7 y 8 hechos",
+    "completo": "Además, el registro de tutoría con su entrada y la hoja de publicación y privacidad con tus decisiones"
+  },
+  "ficheros": [
+    {
+      "ruta": "docs/01-analisis.md",
+      "paso": "5",
+      "nivel": "minimo",
+      "contiene": [
+        "OBJ-02"
+      ],
+      "apartados": [
+        {
+          "titulo": "## 4.",
+          "rellenado": true,
+          "sin_marcadores": [
+            "[RELLENAR"
+          ],
+          "tabla": {
+            "columnas": 4,
+            "filas_min": 4
+          }
+        },
+        {
+          "titulo": "### Matriz de trazabilidad",
+          "sin_marcadores": [
+            "[RELLENAR"
+          ]
+        }
+      ]
+    },
+    {
+      "ruta": "docs/01-analisis.md",
+      "paso": "6",
+      "nivel": "minimo",
+      "apartados": [
+        {
+          "titulo": "## 5.",
+          "rellenado": true,
+          "sin_marcadores": [
+            "[RELLENAR"
+          ],
+          "enlaces_min": 3,
+          "tabla": {
+            "columnas": 4,
+            "filas_min": 3
+          }
+        },
+        {
+          "titulo": "## 6.",
+          "rellenado": true,
+          "sin_marcadores": [
+            "[RELLENAR"
+          ],
+          "enlaces_min": 1
+        }
+      ]
+    },
+    {
+      "ruta": "docs/01-analisis.md",
+      "paso": "7",
+      "nivel": "minimo",
+      "apartados": [
+        {
+          "titulo": "## 7.",
+          "rellenado": true,
+          "sin_marcadores": [
+            "[RELLENAR"
+          ],
+          "tabla": {
+            "columnas": 5,
+            "filas_min": 7,
+            "filas_max": 7
+          }
+        },
+        {
+          "titulo": "## 8.",
+          "rellenado": true,
+          "sin_marcadores": [
+            "[RELLENAR"
+          ],
+          "tabla": {
+            "columnas": 3,
+            "filas_min": 5
+          }
+        }
+      ]
+    },
+    {
+      "ruta": "docs/01b-sota.md",
+      "paso": "8",
+      "nivel": "minimo",
+      "apartados": [
+        {
+          "titulo": "## 5.",
+          "rellenado": true,
+          "sin_marcadores": [
+            "[RELLENAR"
+          ]
+        }
+      ]
+    },
+    {
+      "ruta": "docs/registro-tutoria.md",
+      "paso": "registro",
+      "nivel": "completo",
+      "apartados": [
+        {
+          "titulo": "# Registro de tutoría",
+          "tabla": {
+            "columnas": 7,
+            "filas_min": 1
+          }
+        }
+      ]
+    },
+    {
+      "ruta": "docs/publicacion-y-privacidad.md",
+      "paso": "publicacion",
+      "nivel": "completo",
+      "apartados": [
+        {
+          "titulo": "## 5.",
+          "sin_marcadores": [
+            "[RELLENAR"
+          ],
+          "tabla": {
+            "columnas": 2,
+            "filas_min": 3
+          }
+        }
+      ]
+    }
+  ]
+}
