@@ -23,3 +23,11 @@ Esta bitácora **hace de declaración de uso de IA** del módulo.
 | 2026-11-19 | Agente: pendiente de identificar. Modelo: GPT-6.1 Terra | Si las menciones a la IA y a la lectura pendiente deben desaparecer del SOTA final. | La IA explicó que las aclaraciones deben actualizarse cuando deje de haber lecturas pendientes, sin confundir la lectura de documentación con una prueba práctica. También recordó registrar el uso de IA en `asistenciaIA/`. | Conversación; sin cambios en ficheros. | pendiente |
 | 2026-11-19 | Agente: pendiente de identificar. Modelo: GPT-6.1 Terra | Preparar un registro exhaustivo de los prompts de esta sesión y mostrarlo antes de escribir. | La IA leyó la bitácora y preparó esta propuesta. Indiqué que las revisiones humanas quedaran pendientes. | Propuesta en la conversación; escritura pendiente de confirmación. | pendiente |
 | 2026-11-23 | `documentador` con `openai/gpt-6.1-terra` | Integrar cronológicamente en la bitácora del proyecto los registros de IA de dos archivos del escritorio. | Confirmé las ocho filas propuestas, indiqué el modelo de las sesiones anteriores y aclaré qué contenido había revisado. | `asistenciaIA/bitacora.md` | Pendiente. |
+
+## Desde 2026-11-23 (formato simplificado)
+
+| Fecha | Agente y modelo | Qué se pidió y qué decidí yo | Dónde quedó |
+|---|---|---|---|
+| 2026-11-23 | `documentador` · `openai/gpt-6.1-terra` | Pedí añadir las medidas a la matriz y confirmé la propuesta. | `docs/01-analisis.md` |
+| 2026-11-23 | `documentador` · `openai/gpt-6.1-terra` | Pedí separar y renumerar requisitos; confirmé los cambios y dejé el límite de tiempo provisional. | `docs/01-analisis.md` |
+| 2026-11-23 | `auditorIA` y `documentador` · `openai/gpt-6.1-terra` | Pedí pruebas para tres requisitos y acepté las propuestas con cambios. | `docs/01-analisis.md` |
