@@ -1,10 +1,10 @@
 ---
-description: Propone la fila de la bitácora de asistenciaIA/ con lo que se ha hecho con los agentes; escribe solo si confirmas
-agent: documentador
+description: Alias de /auditar. auditorIA decide qué usos de IA merecen anotarse y los escribe en asistenciaIA/bitacora.md
+agent: auditoria
 ---
 
-<!-- Versión: 0.1.0 -->
+<!-- Versión: 0.2.0 -->
 
-Ayúdame a anotar en `asistenciaIA/bitacora.md` el trabajo de los agentes de esta sesión: $ARGUMENTS
+Esto es lo mismo que `/auditar`. Anota el uso de IA de este trabajo en `asistenciaIA/bitacora.md`: $ARGUMENTS
 
-Pregúntame lo que falte (agente y modelo usados, qué pedí, qué acepté o cambié, dónde quedó), enséñame la fila propuesta en la conversación y espera mi confirmación antes de escribir. No inventes nada: si no lo sé, «pendiente».
+Mira primero qué ficheros han cambiado (`git status` y `git diff`), aplica tu criterio de selección y enséñame la fila propuesta en una línea antes de escribirla. Si no hay nada importante que anotar, dímelo y explica por qué.

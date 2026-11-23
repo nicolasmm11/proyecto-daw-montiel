@@ -2,10 +2,10 @@
 
 ## Principios
 
-1. **La IA no hace tu trabajo ni te califica.** `guia` pregunta, comprueba y acompaña. `documentador` da forma de texto a lo que aportas y **solo escribe si lo confirmas**.
+1. **La IA no hace tu trabajo ni te califica.** `guia` pregunta, comprueba y acompaña. `documentador` da forma de texto a lo que aportas y **solo escribe si lo confirmas**. `auditoria` solo anota en la bitácora.
 2. **Lo irreversible lo ejecuta una persona.** Los agentes no pueden hacer `git push`, `git reset` ni borrar, ni leer `.env` (`opencode.jsonc`).
 3. **Nada inventado.** Todo dato externo lleva enlace, fecha de acceso y estado (`leído` / `sin leer`).
-4. **Todo queda anotado** en la [bitácora](../bitacora.md).
+4. **Lo importante queda anotado** en la [bitácora](../bitacora.md) con `/auditar`: el agente `auditoria` elige qué anotar.
 5. **Siempre hay plan B sin IA:** los pasos están en la documentación del repositorio.
 
 ## Modelos
