@@ -7,16 +7,17 @@ Este proyecto se trabaja con [OpenCode](https://opencode.ai) desde el primer dí
 | Pieza | Para qué |
 |---|---|
 | Agente `guia` | Te guía paso a paso. **Solo lectura**: no escribe tu trabajo |
-| Agente `documentador` | Da forma de documentación a lo que tú aportas. Escribe solo en `docs/` y **solo si confirmas** |
-| Skills | Un procedimiento por paso (repositorio, idea, soluciones, sector, necesidades y tipo), más comprobar y auditar fuentes |
-| Comandos | `/paso`, `/comprobar`, `/documentar`, `/validar`, `/bitacora` |
+| Agente `documentador` | Gestiona la documentación: da forma a lo que tú aportas. Escribe solo en `docs/` y `README.md` y **solo si confirmas** |
+| Agente `auditoria` (auditorIA) | Decide qué usos de IA merecen anotarse y los escribe en la bitácora. Escribe **solo** en `asistenciaIA/bitacora.md` |
+| Skills | Un procedimiento por paso (repositorio, idea, soluciones, sector, necesidades y tipo, requisitos, obligaciones y ayudas, guion y hueco), más comprobar y auditar fuentes |
+| Comandos | `/paso`, `/comprobar`, `/documentar`, `/validar`, `/auditar` (y `/bitacora`, que es lo mismo) |
 
 La lista completa con versiones está en [MANIFIESTO.md](MANIFIESTO.md) y los cambios, en [CHANGELOG.md](CHANGELOG.md).
 
 ## Cómo se usa
 
 1. Abre una terminal **en la carpeta del proyecto** y escribe `opencode`. Empieza el agente `guia`.
-2. `/paso 1` te acompaña en el paso 1. `/comprobar 1` revisa si está hecho. `/validar semana-01` comprueba la **estructura** de toda la semana. `/bitacora` anota en [asistenciaIA](../asistenciaIA/README.md) lo que han hecho los agentes.
+2. `/paso 1` te acompaña en el paso 1. `/comprobar 1` revisa si está hecho. `/validar semana-02` comprueba la **estructura** de toda la semana (también existe `semana-01`). `/auditar` (o `/bitacora`) anota en [asistenciaIA](../asistenciaIA/README.md) lo importante que han hecho los agentes.
 3. Para cambiar de agente: `Mayús+Tab`.
 
 ## Principios

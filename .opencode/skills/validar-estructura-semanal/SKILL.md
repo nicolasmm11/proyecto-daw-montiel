@@ -5,7 +5,7 @@ description: "Valida la ESTRUCTURA del trabajo de una semana entera (ficheros, a
 
 # validar-estructura-semanal
 
-**Versión:** 0.2.0 · **Estado:** probado en 2.2.6 (2 pruebas, de la versión 0.1.0)
+**Versión:** 0.3.0 · **Estado:** probado en 2.2.6 (2 pruebas, de la versión 0.1.0); la semana 2 solo está probada con el script
 
 ## Objetivo
 
@@ -18,6 +18,7 @@ Cada semana tiene un fichero en `references/`, junto a esta skill:
 | Semana | Fichero |
 |---|---|
 | 1 | `references/semana-01.json` |
+| 2 | `references/semana-02.json` (pasos 5-8, `docs/registro-tutoria.md` y `docs/publicacion-y-privacidad.md`) |
 
 **Lee el JSON de la semana** (ruta base: la carpeta de esta skill) y aplica **exactamente** sus controles. Esos mismos controles los ejecuta el script `scripts/validar_estructura.py` del profesor, así que tus resultados deben coincidir con los suyos.
 
@@ -50,6 +51,13 @@ Cada semana tiene un fichero en `references/`, junto a esta skill:
 4. Resume en dos líneas: «Mínimo: cumple / no cumple (n controles)» y «Completo: …».
 5. Termina con **una sola acción**: el ❌ más importante, el primero por orden de pasos.
 6. Sugiere dejar constancia en `asistenciaIA/bitacora.md` (agente `documentador`, `/bitacora`).
+
+## Notas de la semana 2
+
+- El JSON **no distingue** RF, RNF y REST ni cuenta líneas: comprueba filas rellenadas, marcadores, enlaces y celdas vacías. Lo que no comprueba lo mira la persona con su checklist; **tú no lo marcas**.
+- En la tabla del guion (apartado 7), una celda vacía da ❌: en «Hito» se escribe «—» donde no hay hito.
+- Si el apartado 4 de `docs/01-analisis.md` no tiene `OBJ-02`, falta el segundo objetivo.
+- Esta especificación solo mira lo **nuevo** de la semana 2. Para lo de la semana 1, usa `semana-01.json`.
 
 ## Qué NO haces
 
