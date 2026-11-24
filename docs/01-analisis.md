@@ -148,7 +148,21 @@ Si en el futuro se abriera el registro a personas reales, habría que identifica
 | Cuantía para empresarios individuales | 1250 € de ayuda para proyectos de 2500 a menos de 5000 €. Para proyectos de 5000 a 15 000 €, la ayuda es de 2500 €. |
 | Plazo y solicitud | La convocatoria cerró el 30 de abril de 2026 a las 14:00, hora peninsular. La solicitud se presentaba por vía electrónica con los datos generales, la memoria y la declaración de ausencia de conflicto de intereses. |
 
-La ayuda cubriría, en su caso, una contratación externa admisible. El trabajo de este prototipo queda fuera de ese supuesto. Fuentes oficiales consultadas el 2026-11-23. [Convocatoria completa](https://www.idepa.es/documents/20147/76120/1.9.Convocatoria_Cheques_2026.pdf/f58f9ee0-40c7-89d7-cad5-8c1cb334d8a6) · [Extracto del BOPA](https://www.idepa.es/documents/20147/76120/1.9.Extracto_Convocatoria_Cheques_2026.pdf/857faa5b-949b-cf8e-2dae-5046904cff05) · [Bases reguladoras](https://www.idepa.es/documents/20147/76120/1.9.Bases_Reguladoras_I%2BD%2Bi.pdf/03574821-4406-42a5-4c82-5fc9f4417bc0).
+La ayuda cubriría, en su caso, una contratación externa admisible. El trabajo de este prototipo queda fuera de ese supuesto.
+
+- [Convocatoria completa](https://www.idepa.es/documents/20147/76120/1.9.Convocatoria_Cheques_2026.pdf/f58f9ee0-40c7-89d7-cad5-8c1cb334d8a6) · acceso: 2026-11-23 · leído.
+- [Extracto del BOPA](https://www.idepa.es/documents/20147/76120/1.9.Extracto_Convocatoria_Cheques_2026.pdf/857faa5b-949b-cf8e-2dae-5046904cff05) · acceso: 2026-11-23 · leído.
+- [Bases reguladoras](https://www.idepa.es/documents/20147/76120/1.9.Bases_Reguladoras_I%2BD%2Bi.pdf/03574821-4406-42a5-4c82-5fc9f4417bc0) · acceso: 2026-11-23 · leído.
+
+### Lo que no pude comprobar
+
+- La clasificación de la empresa que explotase CardLab: falta determinar su actividad principal.
+- El tamaño de las cinco empresas de la tabla del apartado 1.
+- La estructura interna de la empresa tomada como referencia para el organigrama.
+- Cuántos jugadores en España tienen el problema descrito y cómo lo resuelven.
+- Las condiciones de acceso a los datos y los permisos de uso de servicios externos.
+- El límite de rendimiento de dos segundos, que sigue siendo provisional y deberá probarse durante el desarrollo.
+- Las fechas provisionales de las fases, pendientes de cotejar con el calendario del centro.
 
 ## 7. Guion de trabajo (CE 1i)
 
@@ -156,13 +170,13 @@ La hoja de H1 fija la entrega del anteproyecto y el documento de inicio sitúa l
 
 | Fase | Periodo | Tarea principal | Responsable | Entregable o hito |
 |---|---|---|---|---|
-| 1. Análisis | Del 12 al 26 de noviembre de 2026 | Comparar soluciones, definir los requisitos y contrastar las fuentes. | Nicolás. El tutor revisa el PR. | **H1 · 26 de noviembre de 2026.** |
-| 2. Diseño | Del 26 de noviembre al 10 de diciembre de 2026 | Definir cómo se identifican las cartas y cómo se relacionan las cuentas, los inventarios y los mazos. | Nicolás | Modelo de datos y diseño de pantallas. |
-| 3. Planificación | Del 10 de diciembre de 2026 al 21 de enero de 2027 | Estimar el trabajo, ordenar las tareas y prever qué hacer si el catálogo externo resulta inaccesible. | Nicolás | **H2 · 21 de enero de 2027 (provisional).** |
-| 4. Implementación | Del 21 de enero al 31 de marzo de 2027 | Desarrollar el catálogo, las cuentas y el constructor vinculado al inventario. | Nicolás | Primera versión funcional. |
-| 5. Pruebas | Del 1 al 23 de abril de 2027 | Comprobar los recuentos, el acceso por cuenta y la restauración de datos. | Nicolás | Resultados de las pruebas y correcciones. |
-| 6. Despliegue | Del 26 de abril al 7 de mayo de 2027 | Instalar la aplicación y reproducir la demostración siguiendo la guía. | Nicolás | **H3 · 7 de mayo de 2027 (provisional).** |
-| 7. Seguimiento y cierre | Seguimiento semanal hasta el cierre, el 18 de junio de 2027 | Registrar avances y bloqueos, cerrar la memoria y preparar la defensa. | Nicolás | Memoria y defensa. |
+| 1. Análisis | Del 6 al 26 de noviembre de 2026 | Comparar soluciones, definir los requisitos y contrastar las fuentes. | Responsable del proyecto. El tutor revisa el PR. | **H1 · 26 de noviembre de 2026.** |
+| 2. Diseño | Del 26 de noviembre al 10 de diciembre de 2026 | Definir cómo se identifican las cartas y cómo se relacionan las cuentas, los inventarios y los mazos. | Responsable del proyecto | Modelo de datos y diseño de pantallas. |
+| 3. Planificación | Del 10 de diciembre de 2026 al 21 de enero de 2027 | Estimar el trabajo, ordenar las tareas y prever qué hacer si el catálogo externo resulta inaccesible. | Responsable del proyecto | **H2 · 21 de enero de 2027 (provisional).** |
+| 4. Implementación | Del 21 de enero al 31 de marzo de 2027 | Desarrollar el catálogo, las cuentas y el constructor vinculado al inventario. | Responsable del proyecto | Primera versión funcional. |
+| 5. Pruebas | Del 1 al 23 de abril de 2027 | Comprobar los recuentos, el acceso por cuenta y la restauración de datos. | Responsable del proyecto | Resultados de las pruebas y correcciones. |
+| 6. Despliegue | Del 26 de abril al 7 de mayo de 2027 | Instalar la aplicación y reproducir la demostración siguiendo la guía. | Responsable del proyecto | **H3 · 7 de mayo de 2027 (provisional).** |
+| 7. Seguimiento y cierre | Del 11 de febrero al 18 de junio de 2027; en paralelo a las fases 4, 5 y 6 | Registrar avances y bloqueos, cerrar la memoria y preparar la defensa. | Responsable del proyecto | Memoria y defensa. |
 
 ## 8. Glosario
 

@@ -31,3 +31,5 @@ Esta bitácora **hace de declaración de uso de IA** del módulo.
 | 2026-11-23 | `documentador` · `openai/gpt-6.1-terra` | Pedí añadir las medidas a la matriz y confirmé la propuesta. | `docs/01-analisis.md` |
 | 2026-11-23 | `documentador` · `openai/gpt-6.1-terra` | Pedí separar y renumerar requisitos; confirmé los cambios y dejé el límite de tiempo provisional. | `docs/01-analisis.md` |
 | 2026-11-23 | `auditorIA` y `documentador` · `openai/gpt-6.1-terra` | Pedí pruebas para tres requisitos y acepté las propuestas con cambios. | `docs/01-analisis.md` |
+| 2026-11-24 | `documentador` · `openai/gpt-6.1-terra` | Pedí registrar las fuentes y acepté la lista de comprobaciones pendientes. | `docs/01-analisis.md` |
+| 2026-11-24 | `documentador` · `openai/gpt-6.1-terra` | Pedí ajustar el guion a la guía y acepté las fechas provisionales y el cambio de rol. | `docs/01-analisis.md` |
