@@ -64,13 +64,6 @@ La web permite guardar un mazo incompleto y consultar las copias que faltan desd
 
 ## 4. Objetivos, requisitos y restricciones (CE 1f)
 
-| ID | Objetivo | Medida de aceptación propuesta |
-|---|---|---|
-| OBJ-01 | Consultar y mantener el inventario personal. | Completar diez búsquedas de referencia, modificar cantidades y recuperar el inventario al iniciar otra sesión. |
-| OBJ-02 | Preparar un mazo y saber cuántas copias faltan de cada carta. | Crear, editar, guardar y eliminar un mazo. Obtener el resultado esperado en los cinco casos de RF-20. |
-| OBJ-03 | Proteger los datos de cada cuenta y facilitar su consulta y recuperación. | Superar las comprobaciones RNF de acceso, contraseñas, tiempo de respuesta, uso de la interfaz y restauración. |
-| OBJ-04 | Entregar una primera versión reproducible dentro del plazo y del alcance acordados. | Instalar el prototipo a partir de su guía y completar las comprobaciones REST con los datos de demostración. |
-
 El recuento se hará **por edición y por mazo**. Guardar una lista conserva intactas las existencias. Así, una misma colección puede compararse con varios mazos alternativos. Los criterios siguientes se comprobarán durante el desarrollo.
 
 | ID | Requisito | Tipo | Cómo se verifica |
@@ -110,6 +103,13 @@ El recuento se hará **por edición y por mazo**. Guardar una lista conserva int
 | REST-02 | Utilizar datos ficticios en las pruebas y en la demostración. | Restricción | Revisar las cuentas, las capturas, las exportaciones y los registros que se vayan a compartir. |
 | REST-03 | Documentar la procedencia y los permisos de los recursos externos. | Restricción | Identificar la fuente, las condiciones y la fecha de consulta de cada recurso. Usar material propio de prueba cuando falte el permiso necesario. |
 | REST-04 | Permitir la instalación con datos de prueba sin contratar un servicio depago. | Restricción | Seguir la guía en una instalación limpia y comprobar que se pueden consultar el catálogo, el inventario y un mazo. |
+
+| ID | Objetivo | Medida de aceptación propuesta |
+|---|---|---|
+| OBJ-01 | Consultar y mantener el inventario personal. | Completar diez búsquedas de referencia, modificar cantidades y recuperar el inventario al iniciar otra sesión. |
+| OBJ-02 | Preparar un mazo y saber cuántas copias faltan de cada carta. | Crear, editar, guardar y eliminar un mazo. Obtener el resultado esperado en los cinco casos de RF-20. |
+| OBJ-03 | Proteger los datos de cada cuenta y facilitar su consulta y recuperación. | Superar las comprobaciones RNF de acceso, contraseñas, tiempo de respuesta, uso de la interfaz y restauración. |
+| OBJ-04 | Entregar una primera versión reproducible dentro del plazo y del alcance acordados. | Instalar el prototipo a partir de su guía y completar las comprobaciones REST con los datos de demostración. |
 
 ### Matriz de trazabilidad
 

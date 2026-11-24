@@ -41,6 +41,6 @@ Para una entrevista conviene tu **nombre real**. Si prefieres no exponerlo, usa 
 
 | Pregunta | Mi respuesta |
 |---|---|
-| ¿Nombre real o alias? | [RELLENAR] |
-| ¿Repositorio público o privado hasta la defensa (excepción)? | [RELLENAR] |
-| ¿Dónde se guarda mi seguimiento? | [RELLENAR] |
+| ¿Nombre real o alias? | Nombre real |
+| ¿Repositorio público o privado hasta la defensa (excepción)? | Público |
+| ¿Dónde se guarda mi seguimiento? |  Pendiente de indicación del tutor |
