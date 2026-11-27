@@ -8,4 +8,7 @@ Una entrada **cada semana**. El tutor puede comentar aspectos técnicos en el Pu
 
 | Fecha | Horas gestión/doc. | Horas producto | Decisiones técnicas | Avances | Bloqueos | Siguiente paso |
 |---|---|---|---|---|---|---|
-| 2026-11-06 | | | | | | |
+| 2026-11-18 | 1,5 h | 0 h | Ninguna | Carga de documentos de la semana 01 y comienzo del SOTA | Sin bloqueos | Terminar el estado del arte |
+| 2026-11-19 | 2,5 h | 0 h | Ninguna | Últimos matices del SOTA | Sin bloqueos | Comenzar el análisis |
+| 2026-11-23 | 5 h | 0 h | Ninguna | Investigación y escritura del análisis | Bloqueos | Terminar el análisis |
+| 2026-11-24 | 2 h | 0 h | Ninguna | Últimos matices del análisis | Sin bloqueos | Pull request |
